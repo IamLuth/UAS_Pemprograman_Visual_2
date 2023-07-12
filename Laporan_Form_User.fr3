@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.12.6" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45118,6560170718" ReportOptions.Description.Text="" ReportOptions.LastChange="45118,6599473843" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403B00103546F70021808446174617365747301010C3100000020446174615365743D22667278646264747374312220446174615365744E616D653D2266727844424461746173657431220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="215,9" PaperHeight="279,4" PaperSize="1" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="15" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="22,67718" Left="0" Top="18,89765" Width="740,409927"/>
+    <TfrxHeader Name="Header1" Height="22,67718" Left="0" Top="102,04731" Width="740,409927">
+      <TfrxMemoView Name="Memo1" Left="105,82684" Top="0" Width="94,48825" Height="18,89765" ShowHint="False" Text="ID"/>
+      <TfrxMemoView Name="Memo2" Left="219,21274" Top="0" Width="94,48825" Height="18,89765" ShowHint="False" Text="USERNAME"/>
+      <TfrxMemoView Name="Memo3" Left="332,59864" Top="0" Width="94,48825" Height="18,89765" ShowHint="False" Text="PASSWORD"/>
+      <TfrxMemoView Name="Memo4" Left="449,76407" Top="0" Width="94,48825" Height="18,89765" ShowHint="False" Text="LEVEL"/>
+      <TfrxMemoView Name="Memo5" Left="559,37044" Top="0" Width="94,48825" Height="18,89765" ShowHint="False" Text="STATUS"/>
+    </TfrxHeader>
+    <TfrxMasterData Name="MasterData1" Height="22,67718" Left="0" Top="147,40167" Width="740,409927" ColumnWidth="0" ColumnGap="0" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="Memo6" Left="105,82684" Top="3,77953" Width="94,48825" Height="18,89765" ShowHint="False" DataField="id" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;id&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="219,21274" Top="3,77953" Width="94,48825" Height="18,89765" ShowHint="False" DataField="username" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;username&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="332,59864" Top="3,77953" Width="94,48825" Height="18,89765" ShowHint="False" DataField="password" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;password&#34;]"/>
+      <TfrxMemoView Name="Memo9" Left="449,76407" Top="3,77953" Width="94,48825" Height="18,89765" ShowHint="False" DataField="level" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;level&#34;]"/>
+      <TfrxMemoView Name="Memo10" Left="559,37044" Top="3,77953" Width="94,48825" Height="18,89765" ShowHint="False" DataField="status" DataSet="frxdbdtst1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;status&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>
